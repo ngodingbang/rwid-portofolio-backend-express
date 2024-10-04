@@ -1,0 +1,35 @@
+{
+  "name": "@ngodingbang/rwid-portofolio-backend-express",
+  "version": "1.0.0",
+  "description": "REST API to maintain portofolio backend data built by Express.",
+  "module": "src/index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": "^20.18.0"
+  },
+  "volta": {
+    "node": "20.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": {
+    "name": "Septianata Rizky Pratama",
+    "email": "ngodingbang@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngodingbang/rwid-portofolio-backend-express/issues"
+  },
+  "homepage": "https://github.com/ngodingbang/rwid-portofolio-backend-express#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.7"
+  }
+}
